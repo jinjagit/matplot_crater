@@ -15,7 +15,7 @@ fig, ax = plt.subplots()
 plt.subplots_adjust(bottom=0.2)
 
 r = 1.0 # Radius
-a = 0.5 # depth of parabola (below zero)
+a = 0.5 # Depth, greater is deeper (but is not an absolute value)
 
 x = np.arange(-np.pi, np.pi, 0.1)
 y = a * (x**2 - r**2)
